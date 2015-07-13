@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8"/>
+<title>systemjs-automatic-cjs-vs-es6</title>
+</head>
+
+<body>
+<div id="root"></div>
+
+<script src="/jspm_packages/system.js"></script>
+<script src="/config.js"></script>
+<script src="/create-defaults.js"></script>
+
+<script>
+  System.useES6 = window.confirm('Use es6?');
+  System.import('./main');
+</script>
+
+</body>
+</html>

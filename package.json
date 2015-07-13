@@ -1,0 +1,35 @@
+{
+  "name": "systemjs-automatic-cjs-vs-es6",
+  "version": "1.0.0",
+  "description": "Trying to reproduce a possible race condition.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timbur/systemjs-automatic-cjs-vs-es6.git"
+  },
+  "author": "timbur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timbur/systemjs-automatic-cjs-vs-es6/issues"
+  },
+  "homepage": "https://github.com/timbur/systemjs-automatic-cjs-vs-es6#readme",
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "jsx": "github:loggur/plugin-babel-jsx@master",
+      "react": "npm:react@^0.13.3"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.6.4",
+      "babel-runtime": "npm:babel-runtime@^5.6.4",
+      "core-js": "npm:core-js@^0.9.17"
+    }
+  },
+  "dependencies": {
+    "express": "^4.13.1"
+  }
+}
